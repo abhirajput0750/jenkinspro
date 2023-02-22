@@ -3,7 +3,7 @@ pipeline {
     environment {
         AWS_ACCOUNT_ID="804978651690"
         AWS_DEFAULT_REGION="ap-southeast-1"
-        IMAGE_REPO_NAME="jenkins"
+        IMAGE_REPO_NAME="jenkins-ecr"
         IMAGE_TAG="v1"
         REPOSITORY_URI = "${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_DEFAULT_REGION}.amazonaws.com/${IMAGE_REPO_NAME}"
     }
